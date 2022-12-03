@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MoodAppApplication {
 
 	public static void main(String[] args) {
+		System.out.println("working");
 		SpringApplication.run(MoodAppApplication.class, args);
 	}
 
